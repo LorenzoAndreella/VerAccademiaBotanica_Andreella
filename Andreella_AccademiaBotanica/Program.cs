@@ -22,12 +22,13 @@ namespace Andreella_AccademiaBotanica
                 Console.WriteLine("3. Aggiungi pianta");
                 Console.WriteLine("4. Rimuovi pianta");
                 Console.WriteLine("5. Visualizza piante presenti");
-                Console.WriteLine("6. Modifica valori stato attuale");
-                Console.WriteLine("7. Esegui controllo generale");
-                Console.WriteLine("8. Esci");
+                Console.WriteLine("6. Trova pianta");
+                Console.WriteLine("7. Modifica valori stato attuale");
+                Console.WriteLine("8. Esegui controllo generale");
+                Console.WriteLine("9. Esci");
 
-                scelta = AggiungiNum("Scegli cosa fare: ", 1, 8);
-                if (scelta > 2 && scelta < 8 && habitatSelezionato == null)
+                scelta = AggiungiNum("Scegli cosa fare: ", 1, 9);
+                if (scelta > 2 && scelta < 9 && habitatSelezionato == null)
                 {
                     Console.WriteLine("Prima devi selezionare un habitat");
                     continue;
@@ -51,12 +52,15 @@ namespace Andreella_AccademiaBotanica
                         VisualizzaPiantePresenti();
                         break;
                     case 6:
-                        ModificaValoriStatoAttuale();
+                        TrovaPianta();
                         break;
                     case 7:
-                        EseguiControlloGenerale();
+                        ModificaValoriStatoAttuale();
                         break;
                     case 8:
+                        EseguiControlloGenerale();
+                        break;
+                    case 9:
                         Console.WriteLine("Uscita dal programma...");
                         return;
 
@@ -64,6 +68,7 @@ namespace Andreella_AccademiaBotanica
             } while (true);
         }
 
+        //input
         public static string AggiungiString(string m)
         {
             string st;
@@ -97,9 +102,18 @@ namespace Andreella_AccademiaBotanica
             return r;
         }
 
+        //
         public static void CreaHabitat()
         {
             CHabitat h = new CHabitat(AggiungiString("Scrivi nome habitat"));
+            foreach (CHabitat habitat in habitatVari)
+            {
+                if (habitat.Equals(h))
+                {
+                    Console.WriteLine("Habitat uguale già presente");
+                    return;
+                }
+            }
             h.StatoAttuale = new CStatoAmbientale(
                 AggiungiNum("Inserisci mese corrente", 1, 12),
                 AggiungiNum("Inserisci temperatura", -5, 35),
@@ -116,6 +130,12 @@ namespace Andreella_AccademiaBotanica
                 Console.WriteLine("Nessun habitat presente");
                 return;
             }
+            habitatVari.Sort();
+            Console.WriteLine("Habita presenti:");
+            for (int i = 0; i < habitatVari.Count; i++)
+            {
+                Console.WriteLine(i + ") " + habitatVari[i].Nome);
+            }
             habitatSelezionato = habitatVari[AggiungiNum("Scegli habitat inserendo il numero (il primo ha id 0)", 0, habitatVari.Count - 1)];
         }
 
@@ -125,13 +145,13 @@ namespace Andreella_AccademiaBotanica
             switch (sceltaPianta)
             {
                 case 1:
-                    habitatSelezionato.AggiungiPianta(new CTropicale(AggiungiString("Nome "), AggiungiString("Specie "), AggiungiNum("Eta ", 0, 10000), AggiungiBool("Ha le foglie? ", "si", "no"), AggiungiNum("Umidita minima ", 0, 100)));
+                    Console.WriteLine(habitatSelezionato.AggiungiPianta(new CTropicale(AggiungiString("Nome "), AggiungiString("Specie "), AggiungiNum("Eta ", 0, 10000), AggiungiBool("Ha le foglie? ", "si", "no"), AggiungiNum("Umidita minima ", 0, 100))));
                     break;
                 case 2:
-                    habitatSelezionato.AggiungiPianta(new CMediterranea(AggiungiString("Nome "), AggiungiString("Specie"), AggiungiNum("Eta ", 0, 10000), AggiungiBool("Ha le foglie?", "si", "no"), AggiungiNum("Luminosita minima ", 0, 100)));
+                    Console.WriteLine(habitatSelezionato.AggiungiPianta(new CMediterranea(AggiungiString("Nome "), AggiungiString("Specie"), AggiungiNum("Eta ", 0, 10000), AggiungiBool("Ha le foglie?", "si", "no"), AggiungiNum("Luminosita minima ", 0, 100))));
                     break;
                 case 3:
-                    habitatSelezionato.AggiungiPianta(new CTemperate(AggiungiString("Nome "), AggiungiString("Specie"), AggiungiNum("Eta ", 0, 10000), AggiungiBool("Ha le foglie?", "si", "no"), AggiungiNum("Temperatura ideale ", -5, 35)));
+                    Console.WriteLine(habitatSelezionato.AggiungiPianta(new CTemperate(AggiungiString("Nome "), AggiungiString("Specie"), AggiungiNum("Eta ", 0, 10000), AggiungiBool("Ha le foglie?", "si", "no"), AggiungiNum("Temperatura ideale ", -5, 35))));
                     break;
                 default:
                     Console.WriteLine("Errore");
@@ -144,8 +164,11 @@ namespace Andreella_AccademiaBotanica
             if (habitatSelezionato.Piante.Count > 0)
             {
                 VisualizzaPiantePresenti();
-                int rmPianta = AggiungiNum("Inserisci numero pianta da rimuovere", 0, habitatSelezionato.Piante.Count - 1);
-                habitatSelezionato.RimuoviPianta(rmPianta);
+                Console.WriteLine("Rimozione pianta");
+                string nomePianta = AggiungiString("Inserisci nome pianta");
+                string speciePianta = AggiungiString("Inserisci specie pianta");
+
+                habitatSelezionato.RimuoviPianta(new CTropicale(nomePianta, speciePianta, 2, false, 5));
             }
             else
             {
@@ -160,21 +183,49 @@ namespace Andreella_AccademiaBotanica
                 return;
             }
             Console.WriteLine("Elenco piante:");
+            habitatSelezionato.Piante.Sort();
             for (int i = 0; i < habitatSelezionato.Piante.Count; i++)
             {
                 Console.WriteLine(i + ")" + habitatSelezionato.Piante[i].Descrizione());
             }
-            
+
+        }
+
+        public static void TrovaPianta()
+        {
+            if (habitatSelezionato.Piante.Count == 0)
+            {
+                Console.WriteLine("Non ci sono piante");
+                return;
+            }
+            Console.WriteLine("Ricerca pianta");
+            string nomePianta = AggiungiString("Inserisci nome pianta");
+            string speciePianta = AggiungiString("Inserisci specie pianta");
+
+            CPianta p = habitatSelezionato.RicercaPianta(new CTropicale(nomePianta, speciePianta, 2, false, 5));
+            if (p != null)
+            {
+                Console.WriteLine(p.Descrizione());
+            } else
+            {
+                Console.WriteLine("Pianta non trovata");
+            }
+
         }
         public static void ModificaValoriStatoAttuale()
         {
-            CStatoAmbientale s = habitatSelezionato.StatoAttuale;
-            Console.WriteLine("Modifica stato attuale");
-            s.MeseCorrente = AggiungiNum("Inserisci mese corrente: ", 1, 12);
-            s.Temperatura = AggiungiNum("Inserisci temperatura: ", -5, 35);
-            s.Umidita = AggiungiNum("Inserisci umidita: ", 0, 100);
-            s.Luminosita = AggiungiNum("Inserisci luminosita: ", 0, 100);
-
+            CStatoAmbientale s = new CStatoAmbientale(
+                AggiungiNum("Inserisci mese corrente: ", 1, 12),
+                AggiungiNum("Inserisci temperatura: ", -5, 35),
+                AggiungiNum("Inserisci umidita: ", 0, 100),
+                AggiungiNum("Inserisci luminosita: ", 0, 100));
+            
+            if (habitatSelezionato.StatoAttuale.Equals(s))
+            {
+                Console.WriteLine("Nessuna variazione delle condizioni ambientali");
+                return;
+            }
+            habitatSelezionato.StatoAttuale = s;
             Console.WriteLine("Stato ambientale aggiornato!");
         }
         public static void EseguiControlloGenerale()

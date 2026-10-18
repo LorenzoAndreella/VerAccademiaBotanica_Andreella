@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Andreella_AccademiaBotanica
 {
-    public class CStatoAmbientale
+    public class CStatoAmbientale : IEquatable<CStatoAmbientale>
     {
         public int MeseCorrente { get; set; }
         public int Temperatura { get; set; }
@@ -21,6 +21,14 @@ namespace Andreella_AccademiaBotanica
             Luminosita = lum;
         }
 
+        public bool Equals(CStatoAmbientale s)
+        {
+            if (s == null) return false;
+            return MeseCorrente == s.MeseCorrente &&
+                   Temperatura == s.Temperatura &&
+                   Umidita == s.Umidita &&
+                   Luminosita == s.Luminosita;
+        }
 
     }
 }

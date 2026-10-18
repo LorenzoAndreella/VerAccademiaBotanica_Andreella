@@ -18,7 +18,7 @@ namespace Andreella_AccademiaBotanica
         }
         public override string Descrizione()
         {
-            return base.Descrizione() + $",     Tipo: Temperata     Temperatura ideale: {TempIdeale} gradi,     Periodo perdita foglie: Novembre-Frebbraio";
+            return base.Descrizione() + $",     Tipo: Temperata     Temperatura ideale: {TempIdeale} gradi,     Periodo perdita foglie: Novembre-Febbraio";
         }
         public string PerdeFoglie()
         {

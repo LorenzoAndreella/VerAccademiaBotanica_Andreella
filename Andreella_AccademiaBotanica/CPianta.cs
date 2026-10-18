@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Andreella_AccademiaBotanica
 {
-    public abstract class CPianta
+    public abstract class CPianta : IEquatable<CPianta>, IComparable<CPianta>
     {
         protected string Nome { get; set; }
         protected string Specie { get; set; }
@@ -27,6 +27,31 @@ namespace Andreella_AccademiaBotanica
             string fog = Foglie ? "Si" : "No";
             return $"Nome: {Nome},  Specie: {Specie},   Eta: {Eta} anni,    Foglie: {fog}";
         }
+
+        public bool Equals(CPianta p)
+        {
+            if (p == null) return false;
+            
+            if (Nome.ToLower().Equals(p.Nome.ToLower()) && Specie.ToLower().Equals(p.Specie.ToLower()))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public int CompareTo(CPianta p)
+        {
+            if (p == null)
+            {
+                return 1;
+            }
+            int c = Specie.ToLower().CompareTo(p.Specie.ToLower());
+            if (c != 0) return c;
+            c = Nome.ToLower().CompareTo(p.Nome.ToLower());
+            if (c != 0) return c;
+            return Eta.CompareTo(p.Eta);
+            
+        } 
 
         public abstract bool ControlloCodizioniAmbientali(CStatoAmbientale statoAmbientale);
     }
