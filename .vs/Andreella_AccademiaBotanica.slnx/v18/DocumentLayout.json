@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|c:\\users\\lorenzo\\desktop\\c sharp\\andreella_accademiabotanica\\andreella_accademiabotanica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|solutionrelative:andreella_accademiabotanica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\andreella_accademiabotanica\\ctemperate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|solutionrelative:andreella_accademiabotanica\\ctemperate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\andreella_accademiabotanica\\ctropicale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|solutionrelative:andreella_accademiabotanica\\ctropicale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\andreella_accademiabotanica\\ifoglie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|solutionrelative:andreella_accademiabotanica\\ifoglie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\andreella_accademiabotanica\\chabitat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|solutionrelative:andreella_accademiabotanica\\chabitat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\andreella_accademiabotanica\\cmediterranea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|solutionrelative:andreella_accademiabotanica\\cmediterranea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\andreella_accademiabotanica\\cpianta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|solutionrelative:andreella_accademiabotanica\\cpianta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\andreella_accademiabotanica\\cstatoambientale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061447E0-18C6-4C68-8BF0-5B65FE204A2C}|Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica.csproj|solutionrelative:andreella_accademiabotanica\\cstatoambientale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CStatoAmbientale.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\CStatoAmbientale.cs",
+              "RelativeDocumentMoniker": "Andreella_AccademiaBotanica\\CStatoAmbientale.cs",
+              "ToolTip": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\CStatoAmbientale.cs",
+              "RelativeToolTip": "Andreella_AccademiaBotanica\\CStatoAmbientale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:23:07.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CHabitat.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\CHabitat.cs",
+              "RelativeDocumentMoniker": "Andreella_AccademiaBotanica\\CHabitat.cs",
+              "ToolTip": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\CHabitat.cs",
+              "RelativeToolTip": "Andreella_AccademiaBotanica\\CHabitat.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvxwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:22:54.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CMediterranea.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\CMediterranea.cs",
+              "RelativeDocumentMoniker": "Andreella_AccademiaBotanica\\CMediterranea.cs",
+              "ToolTip": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\CMediterranea.cs",
+              "RelativeToolTip": "Andreella_AccademiaBotanica\\CMediterranea.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:21:27.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CTemperate.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\CTemperate.cs",
+              "RelativeDocumentMoniker": "Andreella_AccademiaBotanica\\CTemperate.cs",
+              "ToolTip": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\CTemperate.cs",
+              "RelativeToolTip": "Andreella_AccademiaBotanica\\CTemperate.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wCYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:13:51.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CTropicale.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\CTropicale.cs",
+              "RelativeDocumentMoniker": "Andreella_AccademiaBotanica\\CTropicale.cs",
+              "ToolTip": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\CTropicale.cs",
+              "RelativeToolTip": "Andreella_AccademiaBotanica\\CTropicale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:09:28.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFoglie.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\IFoglie.cs",
+              "RelativeDocumentMoniker": "Andreella_AccademiaBotanica\\IFoglie.cs",
+              "ToolTip": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\IFoglie.cs",
+              "RelativeToolTip": "Andreella_AccademiaBotanica\\IFoglie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:10:23.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CPianta.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\CPianta.cs",
+              "RelativeDocumentMoniker": "Andreella_AccademiaBotanica\\CPianta.cs",
+              "ToolTip": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\CPianta.cs",
+              "RelativeToolTip": "Andreella_AccademiaBotanica\\CPianta.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:00:15.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\Program.cs",
+              "RelativeDocumentMoniker": "Andreella_AccademiaBotanica\\Program.cs",
+              "ToolTip": "C:\\Users\\lorenzo\\Desktop\\c sharp\\Andreella_AccademiaBotanica\\Andreella_AccademiaBotanica\\Program.cs",
+              "RelativeToolTip": "Andreella_AccademiaBotanica\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T07:48:28.909Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

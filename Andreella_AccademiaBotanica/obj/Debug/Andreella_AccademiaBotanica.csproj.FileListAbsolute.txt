@@ -1,0 +1,9 @@
+C:\Users\14529876\source\repos\Andreella_AccademiaBotanica\Andreella_AccademiaBotanica\obj\Debug\Andreella_AccademiaBotanica.csproj.AssemblyReference.cache
+C:\Users\14529876\source\repos\Andreella_AccademiaBotanica\Andreella_AccademiaBotanica\obj\Debug\Andreella_AccademiaBotanica.csproj.CoreCompileInputs.cache
+C:\Users\lorenzo\Desktop\c sharp\Andreella_AccademiaBotanica\Andreella_AccademiaBotanica\bin\Debug\Andreella_AccademiaBotanica.exe.config
+C:\Users\lorenzo\Desktop\c sharp\Andreella_AccademiaBotanica\Andreella_AccademiaBotanica\bin\Debug\Andreella_AccademiaBotanica.exe
+C:\Users\lorenzo\Desktop\c sharp\Andreella_AccademiaBotanica\Andreella_AccademiaBotanica\bin\Debug\Andreella_AccademiaBotanica.pdb
+C:\Users\lorenzo\Desktop\c sharp\Andreella_AccademiaBotanica\Andreella_AccademiaBotanica\obj\Debug\Andreella_AccademiaBotanica.csproj.AssemblyReference.cache
+C:\Users\lorenzo\Desktop\c sharp\Andreella_AccademiaBotanica\Andreella_AccademiaBotanica\obj\Debug\Andreella_AccademiaBotanica.csproj.CoreCompileInputs.cache
+C:\Users\lorenzo\Desktop\c sharp\Andreella_AccademiaBotanica\Andreella_AccademiaBotanica\obj\Debug\Andreella_AccademiaBotanica.exe
+C:\Users\lorenzo\Desktop\c sharp\Andreella_AccademiaBotanica\Andreella_AccademiaBotanica\obj\Debug\Andreella_AccademiaBotanica.pdb
